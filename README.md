@@ -12,6 +12,7 @@ gracias.html              Página tras enviar el formulario
 aviso-de-privacidad.html  Aviso de privacidad integral
 en/                       Versión en inglés (index, thank-you, privacy)
 assets/favicon.svg        Ícono del sitio
+assets/brand/             Logo (SVG con texto en trazos y PNG): horizontal, blanco, símbolo e ícono de app
 assets/img/               Foto del fundador y logos de empresas y aliados
 CNAME                     Dominio personalizado para GitHub Pages
 ```
