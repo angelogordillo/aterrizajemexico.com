@@ -7,10 +7,12 @@ Es un sitio estático de una sola página: HTML y CSS, sin dependencias ni proce
 ## Estructura
 
 ```
-index.html            Landing completa (estilos en línea)
-assets/favicon.svg    Ícono del sitio
-assets/img/           Foto del fundador y logos de empresas y aliados
-CNAME                 Dominio personalizado para GitHub Pages
+index.html                Landing completa (estilos en línea)
+gracias.html              Página tras enviar el formulario
+aviso-de-privacidad.html  Aviso de privacidad integral
+assets/favicon.svg        Ícono del sitio
+assets/img/               Foto del fundador y logos de empresas y aliados
+CNAME                     Dominio personalizado para GitHub Pages
 ```
 
 ## Ver en local
@@ -37,7 +39,7 @@ GitHub Pages gratuito requiere repositorio público; con un plan pago funciona t
 
 - **Formulario de contacto:** envía a angelo@aterrizajemexico.com vía FormSubmit (HTTPS). El primer envío llega como correo de activación que hay que confirmar una sola vez. Tras enviar, redirige a `gracias.html`.
 - **Versión en inglés:** el enlace `EN` del menú aún no apunta a una página.
-- **Aviso de privacidad:** falta la página y su enlace en el pie y en el formulario.
+- **Aviso de privacidad:** publicado en `aviso-de-privacidad.html`; falta completar el domicilio del responsable.
 
 ## Contacto
 
