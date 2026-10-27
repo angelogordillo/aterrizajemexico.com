@@ -35,7 +35,7 @@ GitHub Pages gratuito requiere repositorio público; con un plan pago funciona t
 
 ## Pendientes
 
-- **Formulario de contacto:** hoy abre el correo del visitante (`mailto:`). Para recibir los mensajes sin depender de eso, conecta un servicio de formularios (por ejemplo Formspree o Netlify Forms) cambiando el `action` del `<form>`.
+- **Formulario de contacto:** envía a angelo@aterrizajemexico.com vía FormSubmit (HTTPS). El primer envío llega como correo de activación que hay que confirmar una sola vez. Tras enviar, redirige a `gracias.html`.
 - **Versión en inglés:** el enlace `EN` del menú aún no apunta a una página.
 - **Aviso de privacidad:** falta la página y su enlace en el pie y en el formulario.
 

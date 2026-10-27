@@ -260,14 +260,18 @@ a{color:#0E5E4E}a:hover{color:#0A4439}
 <span>Ciudad de México</span>
 </div>
 </div>
-<form action="mailto:angelo@aterrizajemexico.com" method="post" enctype="text/plain" style="flex: 1 1 440px; min-width: 0; background: #FFFFFF; color: #0F1B2D; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 18px">
+<form action="https://formsubmit.co/angelo@aterrizajemexico.com" method="POST" style="flex: 1 1 440px; min-width: 0; background: #FFFFFF; color: #0F1B2D; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 18px">
+<input type="hidden" name="_subject" value="Nueva solicitud de diagnóstico — aterrizajemexico.com">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_next" value="https://www.aterrizajemexico.com/gracias.html">
+<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px">
-<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Nombre<input type="text" name="nombre" autocomplete="name" style="font: inherit; font-weight: 400; padding: 12px 14px; border: 1px solid #98A2B3; border-radius: 8px; min-height: 44px; box-sizing: border-box"></label>
-<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Empresa<input type="text" name="empresa" autocomplete="organization" style="font: inherit; font-weight: 400; padding: 12px 14px; border: 1px solid #98A2B3; border-radius: 8px; min-height: 44px; box-sizing: border-box"></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Nombre<input type="text" name="nombre" required autocomplete="name" style="font: inherit; font-weight: 400; padding: 12px 14px; border: 1px solid #98A2B3; border-radius: 8px; min-height: 44px; box-sizing: border-box"></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Empresa<input type="text" name="empresa" required autocomplete="organization" style="font: inherit; font-weight: 400; padding: 12px 14px; border: 1px solid #98A2B3; border-radius: 8px; min-height: 44px; box-sizing: border-box"></label>
 <label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">País de origen<input type="text" name="pais" autocomplete="country-name" style="font: inherit; font-weight: 400; padding: 12px 14px; border: 1px solid #98A2B3; border-radius: 8px; min-height: 44px; box-sizing: border-box"></label>
-<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Correo<input type="email" name="correo" autocomplete="email" style="font: inherit; font-weight: 400; padding: 12px 14px; border: 1px solid #98A2B3; border-radius: 8px; min-height: 44px; box-sizing: border-box"></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Correo<input type="email" name="email" required autocomplete="email" style="font: inherit; font-weight: 400; padding: 12px 14px; border: 1px solid #98A2B3; border-radius: 8px; min-height: 44px; box-sizing: border-box"></label>
 </div>
-<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">¿Qué quiere lograr en México?<textarea name="mensaje" rows="4" style="font: inherit; font-weight: 400; padding: 12px 14px; border: 1px solid #98A2B3; border-radius: 8px; resize: vertical"></textarea></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">¿Qué quiere lograr en México?<textarea name="mensaje" required rows="4" style="font: inherit; font-weight: 400; padding: 12px 14px; border: 1px solid #98A2B3; border-radius: 8px; resize: vertical"></textarea></label>
 <button type="submit" style="font: inherit; font-weight: 600; font-size: 16px; background: #0E7A62; color: #FFFFFF; border: 0; border-radius: 10px; padding: 16px 24px; min-height: 48px; cursor: pointer">Solicitar diagnóstico</button>
 <p style="margin: 0; font-size: 13px; color: #475467">Respondemos en un día hábil. Sus datos se usan solo para contactarle. [Enlace a aviso de privacidad]</p>
 </form>
